@@ -1,6 +1,6 @@
-module.exports = countSort;
+module.exports = countingSort;
 
-function countSort(arr, min, max) {
+function countingSort(arr, min, max) {
     var i, z = 0, count = [];
     for (i = min; i <= max; i++) {
         count[i] = 0;

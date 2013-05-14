@@ -1,6 +1,6 @@
 var util = require('util');
 var assert = require('assert');
-var countSort = require('./');
+var countingSort = require('./');
 
 // create an array
 var min = 0, max = 100, unsorted = [];
@@ -27,7 +27,7 @@ describe('sorting', function() {
     });
     describe('an array', function() {
         it('should be sorted correctly', function() {
-            countSort(results, min, max);
+            countingSort(results, min, max);
             assert(
                 arraysEqual(results, sorted),
                 "Expected: " + util.inspect(sorted) + " but got " + util.inspect(results)

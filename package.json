@@ -1,0 +1,23 @@
+{
+  "name": "countsort",
+  "version": "0.0.0",
+  "description": "Sort an array of integers using count sort (where you only have integers and the min and max are known)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "sort",
+    "array",
+    "count",
+    "count",
+    "sort",
+    "countsort"
+  ],
+  "devDependencies": {
+    "mocha": "1.9.x"
+  },
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com> (http://arnorhs.com/)",
+  "license": "MIT"
+}

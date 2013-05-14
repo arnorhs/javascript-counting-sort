@@ -21,8 +21,10 @@ var countSort = require('countsort');
 
 var myArray = [5,3,2,0,6,4,3,6,10,0,3,2];
 
-countSort(myArray, 0, 10); // should result in [0,0,2,2,3,3,3,4,5,6,6,10]
+countSort(myArray, 0, 10); // should sort the array to [0,0,2,2,3,3,3,4,5,6,6,10]
 ```
+
+**Note:** Like the Array#sort() method in Javascript, it will not make a new array, but modify the one passed in.
 
 ### Comparison to javascript Array#sort()
 

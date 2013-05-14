@@ -8,6 +8,7 @@ for (var i = 0; i < 20; i++) {
     unsorted.push((Math.random() * max) << 0);
 }
 
+// poor man's Array#clone
 var sorted = unsorted.slice(0);
 sorted.sort(function(a,b) { return a - b; });
 

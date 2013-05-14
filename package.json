@@ -1,6 +1,6 @@
 {
   "name": "countsort",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sort an array of integers using count sort (where you only have integers and the min and max are known)",
   "main": "index.js",
   "scripts": {

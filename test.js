@@ -21,16 +21,23 @@ function arraysEqual(arr1, arr2) {
 }
 
 describe('sorting', function() {
-    var results;
-    beforeEach(function() {
-        results = unsorted.slice(0);
-    });
     describe('an array', function() {
+        var results = unsorted.slice(0);
+        countingSort(results, min, max);
         it('should be sorted correctly', function() {
-            countingSort(results, min, max);
             assert(
                 arraysEqual(results, sorted),
                 "Expected: " + util.inspect(sorted) + " but got " + util.inspect(results)
+            );
+        });
+    });
+    describe('an empty array', function() {
+        var empty = [];
+        countingSort(empty, min, max);
+        it('should be sorted correctly', function() {
+            assert(
+                arraysEqual(empty, []),
+                "Expected: " + util.inspect([]) + " but got " + util.inspect(empty)
             );
         });
     });

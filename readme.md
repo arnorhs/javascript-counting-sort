@@ -32,12 +32,6 @@ countingSort(myArray, 0, 10); // should sort the array to [0,0,2,2,3,3,3,4,5,6,6
 
 http://jsperf.com/countsort
 
-
-### Todo:
-
-- It would be nice if you could pass in a callback for sorting an array of objects containing integers
-- It would be nice to support sparse arrays as well
-
 ### License
 
 MIT

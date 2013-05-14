@@ -5,7 +5,7 @@ var countSort = require('./');
 // create an array
 var min = 0, max = 100, unsorted = [];
 for (var i = 0; i < 20; i++) {
-    unsorted.push((Math.random() * 100) << 0);
+    unsorted.push((Math.random() * max) << 0);
 }
 
 var sorted = unsorted.slice(0);

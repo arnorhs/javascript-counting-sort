@@ -10,6 +10,10 @@ Count sort is the fastest sorting algorithm when the following criteria are met:
 actually ***not work*** if you try to sort anything else (like floats), so if things
 don't work, that's where you should be looking
 
+### Install using npm
+
+    npm install countsort
+
 ### Usage:
 
 ```javascript

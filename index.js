@@ -13,4 +13,5 @@ function countSort(arr, min, max) {
             arr[z++] = i;
         }
     }
+    return arr;
 }
